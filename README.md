@@ -54,6 +54,9 @@ Validated the XML configuration and restarted the Wazuh Agent service.
 
 **Finding:** Wazuh successfully detected the creation of a new file in the monitored directory.
 
+<img width="920" height="452" alt="image" src="https://github.com/user-attachments/assets/8e540ffa-fa05-4455-bffe-5a56580cdf88" />
+
+
 ## Investigation 2: File Modification
 
 **Action:** Modified `SOC-Investigation.txt` by adding the following text:
@@ -80,6 +83,9 @@ Validated the XML configuration and restarted the Wazuh Agent service.
 
 **Finding:** Wazuh detected changes to the file's size, modification time, and cryptographic hashes.
 
+<img width="924" height="456" alt="image" src="https://github.com/user-attachments/assets/cca2abac-dc1b-4cee-9c82-4d2dfb8b7b69" />
+
+
 ## Investigation 3: File Deletion
 
 **Action:** Deleted `SOC-Investigation.txt` from the monitored directory.
@@ -102,6 +108,9 @@ Validated the XML configuration and restarted the Wazuh Agent service.
 - T1485 – Data Destruction
 
 **Finding:** Wazuh generated a Level 7 alert after detecting the deletion of the monitored file.
+
+<img width="924" height="458" alt="image" src="https://github.com/user-attachments/assets/78ea7ec1-9212-4be1-b450-a2b7c48c99c8" />
+
 
 ## Investigation Summary
 
