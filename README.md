@@ -131,13 +131,3 @@ This project demonstrates how Wazuh can be used to monitor files and detect chan
 
 The lab successfully detected file creation, modification, and deletion events on a Windows endpoint. These capabilities are important for SOC analysts investigating endpoint integrity, suspicious changes, and potential data destruction.
 
-**Note:** All activities were intentionally performed in a controlled lab environment. MITRE ATT&CK mappings represent associated detection classifications and do not establish that a malicious attack occurred.
-
-## Screenshots
-
-Add screenshots of your investigations to a `screenshots/` folder:
-
-1. `fim-configuration.png`
-2. `file-creation-alert.png`
-3. `file-modification-alert.png`
-4. `file-deletion-alert.png`
